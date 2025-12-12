@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:17-oracle
 WORKDIR /App
 
 COPY /target/Point-of-sale-0.0.1-SNAPSHOT.jar .
